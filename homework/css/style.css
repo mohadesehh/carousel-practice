@@ -1,0 +1,59 @@
+@font-face {
+  font-family:newfont ;
+  src: url(../font/BrunoAceSC-Regular.ttf);
+}
+.navbar-light .navbar-brand{
+  color: whitesmoke;
+  font-size: 200%;
+  font-family: newfont;
+}
+.logo{
+  width: 10vw;
+  height: 10vh;
+}
+.bg-light{
+  background-color: black !important;
+ 
+}
+.navbar-light .navbar-nav .nav-link.disabled{
+  color: whitesmoke;
+  
+}
+.navbar-light .navbar-nav .active > .nav-link{
+  color: whitesmoke;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: whitesmoke;
+}
+.navbar-toggler{
+  background-color: whitesmoke;
+} 
+.navbar-light .navbar-brand:hover{
+  color: whitesmoke;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: whitesmoke;
+}
+/* ----------------------btn----------------- */
+.btn-outline-success{
+  color: whitesmoke;
+  border-color: whitesmoke;
+  font-style: italic;
+}
+
+.btn-outline-success:hover{
+  background-color: whitesmoke;
+  color: black;
+  font-style: italic;
+  
+}
+.form-control{
+  font-style: italic;
+}
+
+/* -----------------------carousel---------------------------- */
+.carousel-inner img {
+    width: 100vw;
+    height: 100vh;
+  }
